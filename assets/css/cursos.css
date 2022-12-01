@@ -1,0 +1,51 @@
+/* Definindo margem dos cards*/
+.row.row-cols-1.row-cols-md-3.g-4 {
+    margin-right: -120px;
+}
+
+/* Altura do card */
+.h515 {
+    height: 515px;
+}
+
+/* Largura do card */
+.w280 {
+    width: 280px;
+}
+
+/* Altura da imagem do card */
+img.card-img-top {
+    height: 130px;
+}
+
+/* Altura do título do card */
+.card-header {
+    height: 73px;
+}
+
+/* Altura e tamanho da fonte da descrição do card */
+p.card-text.card-info {
+    font-size: 16px;
+    height: 170px;
+}
+
+/* Alterando a margin da descrição de duração*/
+p.card-text.duracao {
+    margin-bottom: 0px;
+}
+
+/* Estilizando o botão inscrever-se*/
+.btn-inscrever {
+    background-color: var(--white);
+    border: 1px solid var(--btn-border);
+    padding: 16px 8px;
+}
+
+/* Estilização do botão inscrever-se usando um preenchimento linear gradiente */
+.inscreva-ancora {
+    background: linear-gradient(to right, #46A0F3, #1345BF);
+    background-clip: border-box;
+    text-decoration: underline;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

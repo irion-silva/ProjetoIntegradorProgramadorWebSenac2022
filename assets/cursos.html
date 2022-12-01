@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos | Instituto Nosso Lar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- AJAX BOOTSTRAP-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/cursos.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-light d-inline">
+    <div class="container container-fluid py-2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="cursos.html">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="unidade.html">Unidade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+        </ul>
+        <button class="btn" type="submit"><a class="doar-ancora" href="https://institutonossolar.org.br/doar/"
+            target="_blank">DOAR</a></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <div class="container d-flex flex align-items-center justify-content-between w-100 py-3">
+      <div class="banner-info">
+        <h3 class="">Conheça nossos<br>
+          Cursos Profissionalizantes</h3>
+        <p class="">O Instituto Nosso Lar com apoio de parceiros oferece<br> cursos profissionalizantes para a
+          comunidade local totalmente gratuitos.<br>
+          <b>Confira nossas ofertas de cursos abaixo.</b>
+        </p>
+      </div>
+      <div class="logotipo"></div>
+    </div>
+  </div>
+
+  <!--Card-->
+  <div class="container container-fluid py-2">
+    <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/administrador-card.jpg" alt="Administrador">
+          <div class="card-header">
+            <h5 class="card-title">Assistente Administrativo</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info"> Auxiliar nas atividades administrativas empresariais, preparando arquivos e
+              documentos
+              nos processos de finanças, gestão de pessoas, logística, marketing, comercial e jurídico.</p>
+            <div class="d-flex flex-column align-items-baseline">
+              <p class="card-text duracao"><b>Duração</b></p>
+              <p class="card-text duracao2">2 mêses</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-assistente-administrativo" class="card-link"
+              target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/cuidador-de-idosos-card.jpg" alt="Cuidador de Idosos">
+          <div class="card-header">
+            <h5 class="card-title">Cuidador de Idoso</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info">Você aprenderá a cuidar de pessoas idosas, auxiliando a família e a equipe
+              multiprofissional a zelar pela saúde e bem-estar, além de ajudar em tarefas rotineiras e a ocupar o tempo
+              livre com atividades prazerosas.</p>
+            <p class="card-text duracao"><b>Duração</b></p>
+            <p class="card-text duracao2">2 mêses</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-cuidador-de-idoso" class="card-link"
+              target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/padeiro-card.png" alt="Padeiro">
+          <div class="card-header">
+            <h5 class="card-title">Padeiro</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info">Você aprenderá a realizar as etapas do desenvolvimento de massas fermentadas,
+              conhecendo maquinários e sabendo modelar, assar e decorar pães.
+            <p>
+            <div class="d-flex flex-column align-items-baseline">
+              <p class="card-text duracao"><b>Duração</b></p>
+              <p class="card-text duracao2">3 mêses</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-padeiro" class="card-link" target="_blank">Saiba
+              mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/pizzaiolo-card.png" alt="Pizzaiolo">
+          <div class="card-header">
+            <h5 class="card-title">Pizzaiolo</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info">Você aprenderá a aplicar técnicas de produção de massas, molhos, recheios e
+              coberturas, fazer montagem e finalização de pizzas e preparar cardápios.</p>
+            <div class="d-flex flex-column align-items-baseline">
+              <p class="card-text duracao"><b>Duração</b></p>
+              <p class="card-text duracao2">2 mêses</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-pizzaiolo-1" class="card-link" target="_blank">Saiba
+              mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/mundo-do-trabalho-card.jpg" alt="Preparação para o Mundo do Trabalho">
+          <div class="card-header">
+            <h5 class="card-title">Preparação Para o Mundo Do Trabalho</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info">
+              Preparar para entrar no mercado de trabalho e aumentar suas chances de conseguir um emprego, recebendo
+              orientações que farão a diferença na sua carreira</p>
+            <div class="d-flex flex-column align-items-baseline">
+              <p class="card-text duracao"><b>Duração</b></p>
+              <p class="card-text duracao2">2 mêses</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-preparacao-para-o-mundo-do-trabalho"
+              class="card-link" target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card w280 h515">
+          <img class="card-img-top" src="img/programadora-card.jpg" alt="Programadora">
+          <div class="card-header">
+            <h5 class="card-title">Programador Web</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text card-info">Tecnicas de planejamento, programação e websites com métodos que permitem a
+              inserção e manipulação de conteúdo dinâmico, além de desenvolver interfaces de acordo com padrões web.</p>
+            <div class="d-flex flex-column align-items-baseline">
+              <p class="card-text duracao"><b>Duração</b></p>
+              <p class="card-text duracao2">3 mêses</p>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.sp.senac.br/cursos-livres/curso-de-programador-web" class="card-link"
+              target="_blank">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-inscrever" type="button" onclick="redirecionarInscrever()"><a class="inscreva-ancora"
+          href="" target="_blank">INSCREVA-SE</a></button>
+    </div>
+  </div>
+
+  <!-- Parceiros -->
+  <div class="parceiros d-flex flex-column justify-content-center align-items-center text-muted mt-1 mb-1">
+    <h3>Conheça nossos parceiros</h3>
+    <div id="meuCarrosel" class="carousel slide" data-ride="carousel" data-interval="2500">
+      <ul class="carousel-indicators">
+        <li data-target="#meuCarrosel" data-slide-to="0" class="active"></li>
+        <li data-target="#meuCarrosel" data-slide-to="1"></li>
+        <li data-target="#meuCarrosel" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item py-3 active">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items"><img
+              src="img/senac.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/secre-educacao.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/logo-ame-digital.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/provida.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/unimed.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/alpargatas.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/edp.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/cshg.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/fs.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/polen.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/assist-e-desenvolvimento.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/apex.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/joyz.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/conecta.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/iee.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+        <div class="carousel-item py-3">
+          <div class="text-light d-flex justify-content-center pgbr-carousel-item align-items">
+            <img src="img/chubb-logo.png" alt="" class="parceiros-logo">
+          </div>
+        </div>
+      </div>
+      <a href="#meuCarrosel" class="carousel-control-prev" data-slide="prev"> <span
+          class="carousel-control-prev-icon"></span></a>
+      <a href="#meuCarrosel" class="carousel-control-next" data-slide="next"><span
+          class="carousel-control-next-icon"></span></a>
+    </div>
+  </div>
+
+  <!-- HR -->
+  <hr class="text-muted">
+
+  <!-- Rodapé -->
+  <footer class="text-center text-lg-start text-muted">
+    <!-- Section:Redes sociais -->
+    <section class="container d-flex justify-content-center justify-content-lg-between p-4">
+      <!-- Conteúdo da esquerda -->
+      <div class="me-5 d-flex d-lg-block">
+        <span>Conecte-se conosco</span>
+      </div>
+      <!-- Conteúdo da direita -->
+      <div>
+        <a class="icones" href="https://www.facebook.com/institutonossolarsp" target="_blank">
+          <img src="img/facebook-icon.png" class="facebook">
+        </a>
+        <a class="icones" href="https://www.instagram.com/institutonossolarsp/" target="_blank">
+          <img src="img/instagram-icon.png" class="instagram">
+        </a>
+        <a class="icones" href="https://www.youtube.com/channel/UCfnvKzwKTYL3T_Jhqt2nn3Q" target="_blank">
+          <img src="img/youtube.png" class="youtube">
+        </a>
+      </div>
+    </section>
+
+    <!-- HR -->
+    <hr>
+
+    <!-- Section:Links -->
+    <section class="">
+      <div class="text-center text-md-start pt-2">
+        <!-- Grid row -->
+        <div class="container row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Conteúdo -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Instituto Nosso Lar
+            </h6>
+            <p>
+              Acreditamos que a educação tem o poder de transformar.
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Unidade
+            </h6>
+            <p>
+              Rua Augusto José Avancini, 248<br>
+              Jd. São Jorge<br>
+              CEP 05568-050
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contato
+            </h6>
+            <p>
+              Telefone:<br>
+              (11) 3781-8989<br>
+              Email:<br>
+              <a href="mailto:cursos@institutonossolar.org.br">cursos@institutonossolar.org.br</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diretos autorais -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+      © 2022 Copyright
+      <a class="text-reset fw-bold" target="_blank" href="https://institutonossolar.org.br/">institutonossolar.org.br</a>
+    </div>
+  </footer>
+</body>
+</html>

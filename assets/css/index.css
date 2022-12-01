@@ -1,0 +1,38 @@
+.banner-descricao {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 396px;
+    width: 500px;
+}
+
+.banner-descricao2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 396px;
+    object-fit: cover;
+    width: 500px;
+}
+
+.banner-descricao3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 396px;
+    object-fit: cover;
+    width: 500px;
+}
+
+.banner-descricao4 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 396px;
+    object-fit: cover;
+    width: 500px;
+}
+
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
