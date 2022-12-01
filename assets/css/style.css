@@ -13,14 +13,11 @@
     --white: #FFFFFD;
 }
 
+/* Utilizando media queries para deixar o site responsivo*/
 @media only screen and (max-width: 992px) {
     .container.d-flex.flex.align-items-center.justify-content-between.w-100.py-3 {
         flex-direction: column;
     }
-
-    /* Fazer botão formulario contato*/
-
-    /* Ajustar cards no meio*/
 
     .container.text-center.d-flex.align-items-center.justify-content-center.mt-3 {
         flex-direction: column;
@@ -90,10 +87,10 @@ body {
     text-decoration: none;
 }
 
+/* Colocando sombra na imagem */
 .container.descricao {
     background-color: var(--cont-bg);
-    box-shadow: 0 2px 10px 5px #00000020;
-    /* Colocando sombra na imagem */
+    box-shadow: 0 2px 10px 5px #00000020; 
 }
 
 /* Estilzando a ancora quando o mouse está emcima do botão doar*/

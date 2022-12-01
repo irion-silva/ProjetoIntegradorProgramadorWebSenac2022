@@ -1,3 +1,4 @@
+// Adicionando evento para salvar informações no LocalStorage ao clicar no botão
 const btnEnviar = document.getElementById('btn-enviar')
 btnEnviar.addEventListener('click', function (ev) {
   ev.preventDefault;

@@ -1,38 +1,18 @@
-.banner-descricao {
+/* Ajustando as imagens da descrição */
+.banner-descricao, .banner-descricao2, .banner-descricao3, .banner-descricao4 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 396px;
+    object-fit: contain;
     width: 500px;
 }
 
-.banner-descricao2 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 396px;
-    object-fit: cover;
-    width: 500px;
-}
-
-.banner-descricao3 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 396px;
-    object-fit: cover;
-    width: 500px;
-}
-
-.banner-descricao4 {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 396px;
-    object-fit: cover;
-    width: 500px;
-}
-
+/* Adicionando margem a esquerda dos textos da descrição */
 .ml-30 {
     margin-left: 30px;
 }
 
+/* Adicionando margem a esquerda dos textos da descrição */
 .mr-30 {
     margin-right: 30px;
 }
