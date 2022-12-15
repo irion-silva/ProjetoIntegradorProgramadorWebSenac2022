@@ -44,7 +44,7 @@
 
 }
 
-@media (min-width: 576px) {
+@media (min-width: 766px) {
     .parceiros-logo {
         height: 51px;
         width: 51px;
@@ -54,6 +54,26 @@
         width: 30%;
     }
 }
+
+@media (max-width: 766px) {
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 60%;
+    }
+}
+
+@media (max-width: 766px) {
+    .row.row-cols-1.row-cols-md-3.g-4.justify-content-center {
+        width: 413.88px;
+    }
+}
+
+@media (max-width: 766px) {
+    .col {
+        max-width: 457.88px;
+    }
+}
+
 
 body {
     background-color: var(--body-color);
@@ -119,14 +139,6 @@ h4 {
 /* Fontes para os parágrafos */
 p {
     font-family: 'Lato', sans-serif;
-}
-
-/* Inserindo a imagem do logotipo e ajustando seu tamanho */
-.logotipo {
-    background-image: url(../img/logotipo.png);
-    background-size: cover;
-    height: 250px;
-    width: 240px;
 }
 
 /* Fundo e espaçamento interno do rodapé */
