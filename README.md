@@ -8,6 +8,7 @@ oferecidos pelo Instituto Nosso Lar.
 
 ## Tecnologias utilizadas<br>
 <ul>
+    <li>Bootstrap</li>
     <li>Javascript</li>
     <li>HTML5</li>
     <li>CSS3</li>
